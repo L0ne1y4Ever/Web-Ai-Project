@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/9c8afb58-9a90-4aed-a157-e42246f47eab/console.sql" value="9c8afb58-9a90-4aed-a157-e42246f47eab" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/StuMapper.xml" value="9c8afb58-9a90-4aed-a157-e42246f47eab" />
+  </component>
+</project>
