@@ -64,6 +64,6 @@
         select c.name, count(s.id) value
         from clazz c left join student s on c.id = s.clazz_id
         group by c.id, c.name
-        order by value desc
+        order by value
     </select>
 </mapper>

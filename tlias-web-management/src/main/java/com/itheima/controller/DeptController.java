@@ -61,7 +61,6 @@ public class DeptController {
         return Result.success();
     }
 
-//    修改部门
     @GetMapping("/{id}")
 //    public Result getInfo(@PathVariable Integer id)
     public Result getInfo(@PathVariable("id") Integer deptId){
@@ -70,7 +69,7 @@ public class DeptController {
         return Result.success(dept);
     }
 
-    @PutMapping("/depts")
+    @PutMapping
     public Result update(@RequestBody Dept dept){
         log.info("修改部门: {}",dept);
         deptService.update(dept);
